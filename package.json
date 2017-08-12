@@ -1,17 +1,27 @@
 {
   "name": "cache-rules-everything-around-me",
   "version": "1.0.0",
-  "description": "",
+  "description": "# Cache Rules Everything Around Me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Ray Farias <rayrfarias@gmail.com> (http://github.com/sgnl)",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0"
-  }
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "redis": "^2.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vallejoj/cache-rules-everything-around-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vallejoj/cache-rules-everything-around-me/issues"
+  },
+  "homepage": "https://github.com/vallejoj/cache-rules-everything-around-me#readme"
 }
